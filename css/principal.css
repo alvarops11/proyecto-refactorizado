@@ -1,0 +1,121 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #004a99;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  margin: 5px 0 0;
+  font-style: italic;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 40px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+nav a.activo {
+  color: #00aaff;
+}
+
+main {
+  padding: 20px 40px;
+  min-height: 60vh;
+}
+
+.caja-contenido {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #004a99;
+  border-bottom: 2px solid #004a99;
+  padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #222;
+  color: #aaa;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+footer p {
+  margin: 0;
+}
+footer .texto-pequeno {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+#bienvenida {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#bienvenida p:first-of-type {
+  font-size: 1.1em;
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+}
+#proyectos-destacados h3 {
+  color: #333;
+}
+#proyectos-destacados .proyecto-placeholder {
+  background-color: #eee;
+  border: 1px dashed #ccc;
+  padding: 40px;
+  text-align: center;
+  color: #777;
+}
+
+.lista-habilidades {
+  list-style: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.subtitulo-habilidades {
+  color: #555;
+  margin-top: 30px;
+}/*# sourceMappingURL=principal.css.map */
