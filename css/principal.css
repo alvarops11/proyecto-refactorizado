@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
 body {
   background-color: #F4F6FA;
   color: #333B4F;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
 }
 
 header {

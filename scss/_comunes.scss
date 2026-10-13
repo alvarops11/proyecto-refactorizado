@@ -9,6 +9,12 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: v.$tipografia-titulos;
+}
+
 header {
   background-color: v.$color-principal;
   color: v.$color-claro;
