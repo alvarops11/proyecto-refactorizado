@@ -1,7 +1,7 @@
 @use "variables" as v;
 
 @mixin tarjeta {
-  background-color: v.$blanco;
+  background-color: v.$color-claro;
   padding: v.$espaciado;
   border-radius: v.$borde-redondeado;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

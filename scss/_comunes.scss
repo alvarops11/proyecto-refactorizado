@@ -2,16 +2,16 @@
 @use "mezclas" as m;
 
 body {
-  background-color: v.$gris-fondo;
-  color: v.$gris-texto;
+  background-color: v.$color-fondo;
+  color: v.$color-texto;
   font-family: v.$tipografia-principal;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: v.$azul-principal;
-  color: v.$blanco;
+  background-color: v.$color-principal;
+  color: v.$color-claro;
   padding: v.$espaciado v.$relleno-horizontal;
   text-align: center;
 
@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-  background-color: v.$gris-texto;
+  background-color: v.$color-texto;
   padding: 10px v.$relleno-horizontal;
 
   ul {
@@ -43,13 +43,13 @@ nav {
   }
 
   a {
-    color: v.$blanco;
+    color: v.$color-claro;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
 
     &.activo {
-      color: v.$azul-activo;
+      color: v.$color-activo;
     }
   }
 }
@@ -64,8 +64,8 @@ main {
 }
 
 h2 {
-  color: v.$azul-principal;
-  border-bottom: 2px solid v.$azul-principal;
+  color: v.$color-principal;
+  border-bottom: 2px solid v.$color-principal;
   padding-bottom: 5px;
 }
 
@@ -74,8 +74,8 @@ p {
 }
 
 footer {
-  background-color: v.$gris-pie;
-  color: v.$gris-secundario;
+  background-color: v.$color-pie;
+  color: v.$color-secundario;
   padding: v.$espaciado v.$relleno-horizontal;
   text-align: center;
   margin-top: v.$espaciado;
