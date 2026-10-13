@@ -54,6 +54,10 @@ nav {
     font-weight: bold;
     font-size: 1.1em;
 
+    &:hover {
+      color: v.$color-activo;
+    }
+
     &.activo {
       color: v.$color-activo;
     }
