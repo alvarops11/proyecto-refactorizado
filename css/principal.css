@@ -74,6 +74,26 @@ h2 {
   padding-bottom: 5px;
 }
 
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+}
+
+form button {
+  background-color: #263A5B;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+}
+
 p {
   line-height: 1.6;
 }
