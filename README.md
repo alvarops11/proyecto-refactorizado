@@ -1,10 +1,10 @@
 # Portfolio personal
 
-Proyecto sencillo de portfolio personal desarrollado como práctica de diseño web con HTML, CSS y Sass. La web está estructurada en varias páginas y ofrece una experiencia básica de presentación personal con secciones de inicio, información sobre el autor y formulario de contacto.
+Proyecto sencillo de portfolio personal desarrollado como práctica de diseño web con HTML, CSS y Sass. La web está estructurada en varias páginas y ofrece una experiencia básica de presentación personal con secciones de inicio, información sobre el autor y formulario de contacto. Para desarrollar está practica el profesor nos ha proporcionado el proyecto pero con CSS interno y desordenado, he realizado una refactorización, completado el proyecto con las páginas restantes y realizado un lavado de imagen gracias a la refactorización con Sass.
 
 ## Descripción
 
-Este repositorio contiene un sitio web estático para presentar un perfil personal en el contexto de un proyecto de Desarrollo de Aplicaciones Web (DAW). El objetivo principal es mostrar la identidad del desarrollador, sus habilidades y una forma de contacto sencilla, integrando estilos reutilizables y una organización modular con Sass.
+Este repositorio contiene un sitio web estático para presentar un perfil personal en el contexto de un proyecto de Desarrollo de Aplicaciones Web (DAW). El objetivo principal ha sido realizar una refactorización integrando estilos reutilizables y una organización modular con Sass. Gracias a esto se ha podido acabar la web y realizar un lavado de cara.
 
 ## Características
 
@@ -71,11 +71,8 @@ http://localhost:8000
 
 ## Compilación de Sass
 
-Si quieres modificar los estilos y recompilar el archivo CSS generado, puedes usar Sass desde la raíz del proyecto:
-
-```bash
-sass --watch scss/principal.scss css/principal.css
-```
+Si quieres modificar los estilos y recompilar el archivo CSS generado, puedes usar Sass desde la raíz del proyecto,
+puedes usar la extensión "Live Sass Compiler" 
 
 Esto permite mantener sincronizados los cambios escritos en los archivos `.scss` con la hoja final CSS.
 
