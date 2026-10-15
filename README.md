@@ -86,4 +86,5 @@ Es un proyecto de carácter educativo y de práctica, en constante evolución. A
 
 ## Autor
 
-Proyecto personal desarrollado como ejercicio de aprendizaje en diseño y desarrollo web.
+Proyecto personal desarrollado como ejercicio de aprendizaje en diseño y desarrollo web hecho por:
+Álvaro Pérez Salvador
